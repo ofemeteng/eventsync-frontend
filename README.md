@@ -1,10 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 EventSync Frontend
 
-## Getting Started
+A sleek, modern interface for the EventSync AI Agent - your bridge between Web2 and Web3 event management.
 
-First, run the development server:
+> 🔗 For full project details, check out the [EventSync Agent Backend](https://github.com/ofemeteng/eventsync-agent)
+
+![EventSync Frontend](./public/eventsync.png)
+
+## ✨ Features
+
+- 💅 Modern, responsive UI built with Next.js 14
+- 🤖 Direct interaction with EventSync AI Agent
+- 🔄 Real-time event management
+- 🎫 Seamless Eventbrite integration
+- 🎖 POAP NFT distribution dashboard
+
+## 🚀 Quick Start
+
+### Prerequisites
 
 ```bash
+# Make sure the EventSync Agent backend is running
+git clone https://github.com/ofemeteng/eventsync-agent
+cd eventsync-agent
+# Follow backend setup instructions
+```
+
+### Frontend Setup
+
+```bash
+# Clone the frontend repo
+git clone https://github.com/ofemeteng/eventsync-frontend
+cd eventsync-frontend
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+# Start the development server
 npm run dev
 # or
 yarn dev
@@ -14,23 +51,31 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to see your app in action! 🎉
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Technical Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js 14](https://nextjs.org)
+- [Geist Font](https://vercel.com/font)
+- [Tailwind CSS](https://tailwindcss.com)
+- Modern React patterns
 
-## Learn More
+## 📚 Development Notes
 
-To learn more about Next.js, take a look at the following resources:
+- The app auto-updates as you edit `app/page.tsx`
+- Uses `next/font` for optimized font loading
+- Requires backend connection for full functionality
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔗 Useful Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [EventSync Agent Documentation](https://github.com/ofemeteng/eventsync-agent)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
 
-## Deploy on Vercel
+## 🚀 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) for the best experience.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built with 💖 for [EventSync](https://github.com/ofemeteng/eventsync-agent)
