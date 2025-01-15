@@ -40,7 +40,18 @@ yarn install
 pnpm install
 # or
 bun install
+```
 
+### Configuration
+
+Create a `.env` file:
+```env
+NEXT_PUBLIC_API_BASE_URL=the_base_url_of_the_eventsync_backend_agent
+```
+
+### Running the Application
+
+```bash
 # Start the development server
 npm run dev
 # or
