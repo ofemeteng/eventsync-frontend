@@ -138,7 +138,7 @@ function ChatInterface() {
                 <p className={`text-lg font-medium ${theme === 'dark' ? 'text-indigo-200' : 'text-indigo-800'
                   }`}>Welcome to EventSync!</p>
                 <p className={theme === 'dark' ? 'text-indigo-300' : 'text-indigo-600'}>
-                  Let's make your events awesome together! 🎉
+                  Let&apos;s make your events awesome together! 🎉
                 </p>
               </div>
             ) : (
