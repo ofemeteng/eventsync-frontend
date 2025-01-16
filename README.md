@@ -4,6 +4,8 @@ A sleek, modern interface for the EventSync AI Agent - your bridge between Web2 
 
 > 🔗 For full project details, check out the [EventSync Agent Backend](https://github.com/ofemeteng/eventsync-agent)
 
+> [Live App](https://eventsync.replit.app)
+
 ![EventSync Frontend](./public/eventsync.png)
 
 ## ✨ Features
